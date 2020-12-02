@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QUANLYQUANAN" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-T11FG2C\SQLEXPRESS;Initial Catalog=QUANLYQUANAN;Integrated Security=True" SettingsObjectName="doancosonganh.Properties.Settings" SettingsPropertyName="QUANLYQUANANConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TBL_LOAISANPHAM" Member="TBL_LOAISANPHAMs">
+    <Type Name="TBL_LOAISANPHAM">
+      <Column Name="MASANPHAM" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LOAISANPHAM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TENSANPHAM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DONGIA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="HINH" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_BAN" Member="TBL_BANs">
+    <Type Name="TBL_BAN">
+      <Column Name="MASOBAN" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SOBAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TRANGTHAI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SONGUOI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TENKHACHHANG" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_HOADON" Member="TBL_HOADONs">
+    <Type Name="TBL_HOADON">
+      <Column Name="MAHDBAN" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MANV" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="NGAYBAN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MAKHACH" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TONGTIEN" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="THANHTOAN" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_HOADONCT" Member="TBL_HOADONCTs">
+    <Type Name="TBL_HOADONCT">
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MAHDBAN" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Column Name="MASAPHAM" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Column Name="TENSANPHAM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GIA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SOBAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="THANHTOAN" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PHANBIET" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_SANPHAM" Member="TBL_SANPHAMs">
+    <Type Name="TBL_SANPHAM">
+      <Column Name="MASANPHAM" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENSANPHAM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LOAISANPHAM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GIA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="THOIGIAN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_NHANVIEN" Member="TBL_NHANVIENs">
+    <Type Name="TBL_NHANVIEN">
+      <Column Name="MANV" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENNHANVIEN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GIOITINH" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="LUONG" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="NGAYSINH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CHUCVU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HINH" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_TINHLUONG_1" Member="TBL_TINHLUONG_1s">
+    <Type Name="TBL_TINHLUONG_1">
+      <Column Name="MANV" Type="System.String" DbType="NChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CHUCVU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NGAYNHAN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
