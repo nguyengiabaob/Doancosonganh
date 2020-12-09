@@ -122,6 +122,11 @@ namespace doancosonganh
                                                      select sp;
                 }
             }
+
+        private void tbxsanpham_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbxsanpham.Text = "";
         }
+    }
     }
 

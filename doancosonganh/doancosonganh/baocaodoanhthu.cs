@@ -16,5 +16,18 @@ namespace doancosonganh
         {
             InitializeComponent();
         }
+        ComboBox loai_=null;
+        TextBox tensanpham_=null;
+        DateTimePicker ngaybd_=null;
+        DateTimePicker ngaykt_=null;
+        public baocaodoanhthu(ComboBox loai ,TextBox tensanpham,DateTimePicker ngaybd,DateTimePicker ngaykt)
+        {
+            InitializeComponent();
+            loai_ = loai;
+            tensanpham_ = tensanpham;
+            ngaybd_ = ngaybd;
+            ngaykt_ = ngaykt;
+        }
+
     }
 }

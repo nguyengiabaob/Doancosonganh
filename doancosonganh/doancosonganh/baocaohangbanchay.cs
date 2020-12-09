@@ -18,6 +18,8 @@ namespace doancosonganh
         {
             InitializeComponent();
         }
+        TBhoadonct tbhoadonct = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG) as SOLUONG,Sum(GIA) as GIA from TBL_HOADONCT   "
+ + " group by MASAPHAM, TENSANPHAM");
         ComboBox Loai = null;
         TextBox Ten = null;
         DateTimePicker Tu = null;
@@ -38,8 +40,11 @@ namespace doancosonganh
 
         private void baocaohangbanchay_Load(object sender, EventArgs e)
         {
-            loadcomboxloai();
-            Xembaocao.Click += new EventHandler(xembaocao_Click);
+            //loadcomboxloai();
+            //Xembaocao.Click += new EventHandler(xembaocao_Click);
+            //Loai.SelectedIndexChanged += new EventHandler(Loai_SelectedIndexChanged);
+            dataGridViewbanchay.DataSource = null;
+            dataGridViewbanchay.DataSource = tbhoadonct;
         }
         private void loadcomboxloai()
         { Loaisp = db.GetTable<TBL_LOAISANPHAM>();
@@ -52,35 +57,80 @@ namespace doancosonganh
             if (Loai.SelectedIndex == 0)
             {
                 dataGridViewbanchay.DataSource = null;
-                dataGridViewbanchay.DataSource = from sp in db.TBL_HOADONCTs
-      
-                                                 select sp;
+                dataGridViewbanchay.DataSource = tbhoadonct;
                 
 
             }
             else
                  if (Loai.SelectedIndex > 0 && Ten.Text != "")
             {
+                TBhoadonct tbhoadonct_1 = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG),Sum(GIA) from TBL_HOADONCT"
+  + "group by MASAPHAM, TENSANPHAM where LOAISANPHAM='" + Loai.SelectedItem.ToString() + "' and TENSANPHAM= '" + Ten.Text + "'");
                 dataGridViewbanchay.DataSource = null;
-                dataGridViewbanchay.DataSource = from sp in db.TBL_SANPHAMs 
-                                                 where sp.LOAISANPHAM.Equals(Loai.SelectedItem.ToString()) && sp.TENSANPHAM.Equals(Ten.Text)
-                                                 select sp;
+                dataGridViewbanchay.DataSource = tbhoadonct_1;
             }
             else
                  if (Loai.SelectedIndex > 0)
             {
+                TBhoadonct tbhoadonct_1 = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG),Sum(GIA) from TBL_HOADONCT"
+ + "group by MASAPHAM, TENSANPHAM where LOAISANPHAM='" + Loai.SelectedItem.ToString() + "'");
                 dataGridViewbanchay.DataSource = null;
-                dataGridViewbanchay.DataSource = from sp in db.TBL_SANPHAMs
-                                                 where sp.LOAISANPHAM.Equals(Loai.SelectedItem.ToString())
-                                                 select sp;
+                dataGridViewbanchay.DataSource = tbhoadonct_1;
             }
             else
                      if (Ten.Text != "")
             {
+
+                TBhoadonct tbhoadonct_1 = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG),Sum(GIA) from TBL_HOADONCT"
+ + "group by MASAPHAM, TENSANPHAM where TENSANPHAM='" + Ten.Text + "'");
                 dataGridViewbanchay.DataSource = null;
-                dataGridViewbanchay.DataSource = from sp in db.TBL_SANPHAMs
-                                                 where sp.TENSANPHAM.Equals(Ten.Text)
-                                                 select sp;
+                dataGridViewbanchay.DataSource = tbhoadonct_1;
+               
+            }
+        }
+        private void Loai_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            if (Loai.SelectedIndex == 0)
+            {
+                dataGridViewbanchay.DataSource = null;
+                dataGridViewbanchay.DataSource = tbhoadonct;
+
+
+            }
+            else
+                 if (Loai.SelectedIndex > 0 && Ten.Text != "")
+            {
+                TBhoadonct tbhoadonct_1 = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG),Sum(GIA) from TBL_HOADONCT"
+  + "group by MASAPHAM, TENSANPHAM where LOAISANPHAM='" + Loai.SelectedItem.ToString() + "' and TENSANPHAM= '" + Ten.Text + "'");
+                dataGridViewbanchay.DataSource = null;
+                dataGridViewbanchay.DataSource = tbhoadonct_1;
+            }
+            else
+                 if (Loai.SelectedIndex > 0)
+            {
+                TBhoadonct tbhoadonct_1 = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG),Sum(GIA) from TBL_HOADONCT"
+ + "group by MASAPHAM, TENSANPHAM where LOAISANPHAM='" + Loai.SelectedItem.ToString() + "'");
+                dataGridViewbanchay.DataSource = null;
+                dataGridViewbanchay.DataSource = tbhoadonct_1;
+            }
+            else
+                     if (Ten.Text != "")
+            {
+
+                TBhoadonct tbhoadonct_1 = new TBhoadonct("select MASAPHAM,TENSANPHAM,sum(SOLUONG),Sum(GIA) from TBL_HOADONCT"
+ + "group by MASAPHAM, TENSANPHAM where TENSANPHAM='" + Ten.Text + "'");
+                dataGridViewbanchay.DataSource = null;
+                dataGridViewbanchay.DataSource = tbhoadonct_1;
+
+            }
+        }
+
+        private void dataGridViewbanchay_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            foreach(DataGridViewRow r in dataGridViewbanchay.Rows)
+            {
+                r.Cells[0].Value = r.Index + 1;
             }
         }
     }

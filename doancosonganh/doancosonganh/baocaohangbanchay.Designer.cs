@@ -52,6 +52,7 @@
             this.dataGridViewbanchay.RowTemplate.Height = 24;
             this.dataGridViewbanchay.Size = new System.Drawing.Size(1260, 629);
             this.dataGridViewbanchay.TabIndex = 0;
+            this.dataGridViewbanchay.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewbanchay_DataBindingComplete);
             // 
             // Column1
             // 
@@ -60,21 +61,25 @@
             // 
             // Column2
             // 
+            this.Column2.DataPropertyName = "MASAPHAM";
             this.Column2.HeaderText = "Mã sản phẩm";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
+            this.Column3.DataPropertyName = "TENSANPHAM";
             this.Column3.HeaderText = "Tên sản phẩm";
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
+            this.Column4.DataPropertyName = "SOLUONG";
             this.Column4.HeaderText = "Số lượng bán ra";
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
+            this.Column5.DataPropertyName = "GIA";
             this.Column5.HeaderText = "Thành tiền";
             this.Column5.Name = "Column5";
             // 

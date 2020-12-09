@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbxbaocao = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tbxsanpham = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cbxloai = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dateTimePickerngayden = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerngaytu = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridViewnhapkho = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePickerngaytu = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePickerngayden = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cbxloai = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tbxsanpham = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbxbaocao = new System.Windows.Forms.ComboBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewnhapkho)).BeginInit();
@@ -74,6 +74,98 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bộ lọc";
+            // 
+            // cbxbaocao
+            // 
+            this.cbxbaocao.FormattingEnabled = true;
+            this.cbxbaocao.Items.AddRange(new object[] {
+            "--Chọn báo cáo--",
+            "Báo cáo nhập kho",
+            "Báo cáo về hàng bán chạy",
+            "Báo cáo doanh thu"});
+            this.cbxbaocao.Location = new System.Drawing.Point(645, 107);
+            this.cbxbaocao.Name = "cbxbaocao";
+            this.cbxbaocao.Size = new System.Drawing.Size(193, 27);
+            this.cbxbaocao.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(566, 115);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 19);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Báo cáo";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(1009, 101);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 37);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Xem báo cáo";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tbxsanpham
+            // 
+            this.tbxsanpham.Location = new System.Drawing.Point(984, 26);
+            this.tbxsanpham.Name = "tbxsanpham";
+            this.tbxsanpham.Size = new System.Drawing.Size(203, 27);
+            this.tbxsanpham.TabIndex = 10;
+            this.tbxsanpham.Text = "Nhập mã, tên";
+            this.tbxsanpham.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tbxsanpham_MouseClick);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(892, 33);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 19);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Sản phẩm";
+            // 
+            // cbxloai
+            // 
+            this.cbxloai.FormattingEnabled = true;
+            this.cbxloai.Items.AddRange(new object[] {
+            "--Chọn tất cả--"});
+            this.cbxloai.Location = new System.Drawing.Point(645, 23);
+            this.cbxloai.Name = "cbxloai";
+            this.cbxloai.Size = new System.Drawing.Size(193, 27);
+            this.cbxloai.TabIndex = 8;
+            this.cbxloai.SelectedIndexChanged += new System.EventHandler(this.cbxloai_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(578, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 19);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Loại";
+            // 
+            // dateTimePickerngayden
+            // 
+            this.dateTimePickerngayden.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerngayden.Location = new System.Drawing.Point(300, 54);
+            this.dateTimePickerngayden.Name = "dateTimePickerngayden";
+            this.dateTimePickerngayden.Size = new System.Drawing.Size(200, 27);
+            this.dateTimePickerngayden.TabIndex = 6;
+            this.dateTimePickerngayden.Value = new System.DateTime(2020, 11, 30, 0, 0, 0, 0);
+            // 
+            // dateTimePickerngaytu
+            // 
+            this.dateTimePickerngaytu.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerngaytu.Location = new System.Drawing.Point(50, 53);
+            this.dateTimePickerngaytu.Name = "dateTimePickerngaytu";
+            this.dateTimePickerngaytu.Size = new System.Drawing.Size(200, 27);
+            this.dateTimePickerngaytu.TabIndex = 5;
             // 
             // label3
             // 
@@ -122,108 +214,6 @@
             this.dataGridViewnhapkho.TabIndex = 0;
             this.dataGridViewnhapkho.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewnhapkho_DataBindingComplete);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.Location = new System.Drawing.Point(9, 186);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 19);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Chi tiết";
-            // 
-            // dateTimePickerngaytu
-            // 
-            this.dateTimePickerngaytu.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerngaytu.Location = new System.Drawing.Point(50, 53);
-            this.dateTimePickerngaytu.Name = "dateTimePickerngaytu";
-            this.dateTimePickerngaytu.Size = new System.Drawing.Size(200, 27);
-            this.dateTimePickerngaytu.TabIndex = 5;
-            // 
-            // dateTimePickerngayden
-            // 
-            this.dateTimePickerngayden.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerngayden.Location = new System.Drawing.Point(300, 54);
-            this.dateTimePickerngayden.Name = "dateTimePickerngayden";
-            this.dateTimePickerngayden.Size = new System.Drawing.Size(200, 27);
-            this.dateTimePickerngayden.TabIndex = 6;
-            this.dateTimePickerngayden.Value = new System.DateTime(2020, 11, 30, 0, 0, 0, 0);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(578, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 19);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Loại";
-            // 
-            // cbxloai
-            // 
-            this.cbxloai.FormattingEnabled = true;
-            this.cbxloai.Items.AddRange(new object[] {
-            "--Chọn tất cả--"});
-            this.cbxloai.Location = new System.Drawing.Point(645, 23);
-            this.cbxloai.Name = "cbxloai";
-            this.cbxloai.Size = new System.Drawing.Size(193, 27);
-            this.cbxloai.TabIndex = 8;
-            this.cbxloai.SelectedIndexChanged += new System.EventHandler(this.cbxloai_SelectedIndexChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(892, 33);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 19);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Sản phẩm";
-            // 
-            // tbxsanpham
-            // 
-            this.tbxsanpham.Location = new System.Drawing.Point(984, 26);
-            this.tbxsanpham.Name = "tbxsanpham";
-            this.tbxsanpham.Size = new System.Drawing.Size(203, 27);
-            this.tbxsanpham.TabIndex = 10;
-            this.tbxsanpham.Text = "Nhập mã, tên";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(1009, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 37);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Xem báo cáo";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(566, 115);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 19);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Báo cáo";
-            // 
-            // cbxbaocao
-            // 
-            this.cbxbaocao.FormattingEnabled = true;
-            this.cbxbaocao.Items.AddRange(new object[] {
-            "--Chọn báo cáo--",
-            "Báo cáo nhập kho",
-            "Báo cáo về hàng bán chạy",
-            "Báo cáo doanh thu"});
-            this.cbxbaocao.Location = new System.Drawing.Point(645, 107);
-            this.cbxbaocao.Name = "cbxbaocao";
-            this.cbxbaocao.Size = new System.Drawing.Size(193, 27);
-            this.cbxbaocao.TabIndex = 13;
-            // 
             // Column1
             // 
             this.Column1.DataPropertyName = "STT";
@@ -259,6 +249,17 @@
             this.Column5.DataPropertyName = "GIA";
             this.Column5.HeaderText = "Thành tiền";
             this.Column5.Name = "Column5";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label4.Location = new System.Drawing.Point(9, 186);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 19);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Chi tiết";
             // 
             // baocaothongke
             // 
