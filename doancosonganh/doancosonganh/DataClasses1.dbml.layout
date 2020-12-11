@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.375, 8.5" name="DataClasses1">
   <DataContextMoniker Name="/DataClasses1DataContext" />
   <nestedChildShapes>
     <classShape Id="34800ec9-2fe7-454a-800d-273a5c224f4f" absoluteBounds="6.75, 3.875, 2.5, 1.9631982421874996">
@@ -42,6 +42,12 @@
       <DataClassMoniker Name="/DataClasses1DataContext/TBL_TINHLUONG_1" />
       <nestedChildShapes>
         <elementListCompartment Id="5b7bd6dd-0e0e-48a5-9b89-9dc00548ce73" absoluteBounds="5.765, 3.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0cd2725a-866e-40f9-87cc-057398d52542" absoluteBounds="9.125, 1.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/TBL_QUANLYTAIKHOAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15d502ab-ad6a-4917-8beb-3ab179301392" absoluteBounds="9.14, 2.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

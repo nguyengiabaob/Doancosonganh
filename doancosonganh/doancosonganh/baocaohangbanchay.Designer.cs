@@ -39,6 +39,7 @@
             // 
             // dataGridViewbanchay
             // 
+            this.dataGridViewbanchay.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridViewbanchay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewbanchay.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,

@@ -16,7 +16,7 @@ namespace doancosonganh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new baocaohangbanchay());
+            Application.Run(new Form1());
         }
     }
 }

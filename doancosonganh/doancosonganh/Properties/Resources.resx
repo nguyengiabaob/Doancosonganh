@@ -160,11 +160,14 @@
   <data name="thit bo ngu vi cuon rau cu_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thit bo ngu vi cuon rau cu_avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="top-rated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\top-rated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bò xốt vang_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bò xốt vang_avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="table" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,12 +178,6 @@
   <data name="1494904038_hải-sản-xào-chua-ngọt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1494904038_hải-sản-xào-chua-ngọt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ganuongmuoiot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ganuongmuoiot1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,8 +187,17 @@
   <data name="left-arrow (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left-arrow (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\burger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="886060256ab57aebd05ebd0275414f41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\886060256ab57aebd05ebd0275414f41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="changanuongsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\changanuongsa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="left-arrow-angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left-arrow-angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,8 +226,8 @@
   <data name="bò kho gừng avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bò kho gừng avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="furniture" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\furniture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ca loc kho to_ avatar - Copy - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ca loc kho to_ avatar - Copy - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exchange" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exchange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,9 +238,6 @@
   <data name="AVATAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AVATAR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="log-in" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\log-in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="taodepcoda-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\taodepcoda-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -243,6 +246,9 @@
   </data>
   <data name="loupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loupe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="unnamed (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,17 +271,11 @@
   <data name="kitchen-table" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kitchen-table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ca loc kho to_ avatar - Copy - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ca loc kho to_ avatar - Copy - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="previous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\previous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bia-tiger-crystal-330mllon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bia-tiger-crystal-330mllon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="changanuongsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\changanuongsa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="top-rated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top-rated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="customer-support" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\customer-support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,8 +286,11 @@
   <data name="left-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="restaurant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bia-tiger-crystal-330mllon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bia-tiger-crystal-330mllon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="top-games-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\top-games-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,8 +307,8 @@
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="886060256ab57aebd05ebd0275414f41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\886060256ab57aebd05ebd0275414f41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="furniture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\furniture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1480784899_Tom xot thom chua ngot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1480784899_Tom xot thom chua ngot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -313,11 +316,8 @@
   <data name="log-in (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log-in (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bò xốt vang_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bò xốt vang_avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ga-chien-nuoc-mam-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ga-chien-nuoc-mam-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,8 +328,14 @@
   <data name="salary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ganuongmuoiot1 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganuongmuoiot1 - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="THÙNG-NƯỚC-AQUAFINA-500ML_Queanhwater" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\THÙNG-NƯỚC-AQUAFINA-500ML_Queanhwater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="employees" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employees.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pha lau_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pha lau_avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,8 +343,8 @@
   <data name="pie-chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pie-chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="log-in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log-in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rau-ma-sua-dua-7f5bae" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rau-ma-sua-dua-7f5bae.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -370,17 +376,14 @@
   <data name="11_5fc92a90df0d44578296e3944b562b78_1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\11_5fc92a90df0d44578296e3944b562b78_1024x1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chup-anh-mon-an-com-ga-thuong-hai-81" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chup-anh-mon-an-com-ga-thuong-hai-81.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ca loc kho to_ avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ca loc kho to_ avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vịtkhomăng" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vịtkhomăng.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="employees" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\employees.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chup-anh-mon-an-com-ga-thuong-hai-81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chup-anh-mon-an-com-ga-thuong-hai-81.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1480673106_cadieuhongkhotieuxanh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1480673106_cadieuhongkhotieuxanh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,11 +394,11 @@
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="restaurant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\restaurant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ganuongmuoiot1 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ganuongmuoiot1 - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ganuongmuoiot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganuongmuoiot1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="16592064479262" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16592064479262.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -403,7 +406,10 @@
   <data name="plastic-bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plastic-bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refresh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refresh1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="system" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sign-out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign-out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

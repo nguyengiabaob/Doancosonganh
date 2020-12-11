@@ -56,8 +56,8 @@ namespace doancosonganh
 
         private void loadcbxchucvu()
         {
-            cbxchucvu.Items.Add("Phục vụ");
-            cbxchucvu.Items.Add("Quản lý nhập kho");
+            cbxchucvu.Items.Add("Quản lý");
+            cbxchucvu.Items.Add("Nhân viên");
            
         }
         private void fromthongtinnhanvien_Load(object sender, EventArgs e)

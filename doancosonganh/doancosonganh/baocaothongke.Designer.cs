@@ -31,7 +31,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cbxbaocao = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnxembaocao = new System.Windows.Forms.Button();
             this.tbxsanpham = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cbxloai = new System.Windows.Forms.ComboBox();
@@ -41,6 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.dataGridViewnhapkho = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +50,7 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewnhapkho)).BeginInit();
@@ -56,9 +58,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.cbxbaocao);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnxembaocao);
             this.groupBox1.Controls.Add(this.tbxsanpham);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.cbxloai);
@@ -81,7 +84,7 @@
             this.cbxbaocao.Items.AddRange(new object[] {
             "--Chọn báo cáo--",
             "Báo cáo nhập kho",
-            "Báo cáo về hàng bán chạy",
+            "Báo cáo hàng bán chạy",
             "Báo cáo doanh thu"});
             this.cbxbaocao.Location = new System.Drawing.Point(645, 107);
             this.cbxbaocao.Name = "cbxbaocao";
@@ -98,17 +101,17 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Báo cáo";
             // 
-            // button1
+            // btnxembaocao
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(1009, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 37);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Xem báo cáo";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnxembaocao.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnxembaocao.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnxembaocao.Location = new System.Drawing.Point(874, 107);
+            this.btnxembaocao.Name = "btnxembaocao";
+            this.btnxembaocao.Size = new System.Drawing.Size(140, 37);
+            this.btnxembaocao.TabIndex = 11;
+            this.btnxembaocao.Text = "Xem báo cáo";
+            this.btnxembaocao.UseVisualStyleBackColor = false;
+            this.btnxembaocao.Click += new System.EventHandler(this.button1_Click);
             // 
             // tbxsanpham
             // 
@@ -189,12 +192,21 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.tabControl1);
             this.groupBox2.Controls.Add(this.dataGridViewnhapkho);
             this.groupBox2.Location = new System.Drawing.Point(13, 199);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1204, 434);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Location = new System.Drawing.Point(6, 9);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(997, 425);
+            this.tabControl1.TabIndex = 1;
             // 
             // dataGridViewnhapkho
             // 
@@ -207,10 +219,10 @@
             this.Column4,
             this.Column7,
             this.Column5});
-            this.dataGridViewnhapkho.Location = new System.Drawing.Point(5, 21);
+            this.dataGridViewnhapkho.Location = new System.Drawing.Point(1009, 0);
             this.dataGridViewnhapkho.Name = "dataGridViewnhapkho";
             this.dataGridViewnhapkho.RowTemplate.Height = 24;
-            this.dataGridViewnhapkho.Size = new System.Drawing.Size(1182, 406);
+            this.dataGridViewnhapkho.Size = new System.Drawing.Size(203, 80);
             this.dataGridViewnhapkho.TabIndex = 0;
             this.dataGridViewnhapkho.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewnhapkho_DataBindingComplete);
             // 
@@ -261,6 +273,18 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Chi tiết";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(1032, 107);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 37);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "In báo cáo";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // baocaothongke
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -292,7 +316,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbxbaocao;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnxembaocao;
         private System.Windows.Forms.TextBox tbxsanpham;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cbxloai;
@@ -305,5 +329,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.Button button1;
     }
 }

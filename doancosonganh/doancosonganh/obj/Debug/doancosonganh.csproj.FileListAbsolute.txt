@@ -223,3 +223,4 @@ D:\doancosonganh\doancosonganh\doancosonganh\obj\Debug\doancosonganh.reporthoado
 D:\doancosonganh\doancosonganh\doancosonganh\obj\Debug\doancosonganh.csprojAssemblyReference.cache
 D:\doancosonganh\doancosonganh\doancosonganh\obj\Debug\doancosonganh.baocaodoanhthu.resources
 D:\doancosonganh\doancosonganh\doancosonganh\obj\Debug\doancosonganh.baocaohangbanchay.resources
+D:\doancosonganh\doancosonganh\doancosonganh\obj\Debug\doancosonganh.reporthangbanchay.resources

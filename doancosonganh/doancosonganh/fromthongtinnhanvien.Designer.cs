@@ -252,9 +252,9 @@
             // 
             this.bthinh.ForeColor = System.Drawing.SystemColors.InfoText;
             this.bthinh.Image = global::doancosonganh.Properties.Resources.images__1_;
-            this.bthinh.Location = new System.Drawing.Point(1026, 299);
+            this.bthinh.Location = new System.Drawing.Point(1026, 323);
             this.bthinh.Name = "bthinh";
-            this.bthinh.Size = new System.Drawing.Size(130, 50);
+            this.bthinh.Size = new System.Drawing.Size(159, 50);
             this.bthinh.TabIndex = 20;
             this.bthinh.Text = "Chọn hình";
             this.bthinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -264,10 +264,10 @@
             // 
             // pbxhinh
             // 
-            this.pbxhinh.BackColor = System.Drawing.Color.Gainsboro;
+            this.pbxhinh.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pbxhinh.Location = new System.Drawing.Point(957, 30);
             this.pbxhinh.Name = "pbxhinh";
-            this.pbxhinh.Size = new System.Drawing.Size(288, 246);
+            this.pbxhinh.Size = new System.Drawing.Size(288, 263);
             this.pbxhinh.TabIndex = 19;
             this.pbxhinh.TabStop = false;
             // 

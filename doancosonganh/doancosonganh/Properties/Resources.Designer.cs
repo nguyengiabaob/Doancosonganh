@@ -833,6 +833,16 @@ namespace doancosonganh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sign_out {
+            get {
+                object obj = ResourceManager.GetObject("sign-out", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sinhto_dao {
             get {
                 object obj = ResourceManager.GetObject("sinhto-dao", resourceCulture);
@@ -846,6 +856,16 @@ namespace doancosonganh.Properties {
         internal static System.Drawing.Bitmap sinhto_dao1 {
             get {
                 object obj = ResourceManager.GetObject("sinhto-dao1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap system {
+            get {
+                object obj = ResourceManager.GetObject("system", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

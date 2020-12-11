@@ -51,6 +51,9 @@ namespace doancosonganh
     partial void InsertTBL_TINHLUONG_1(TBL_TINHLUONG_1 instance);
     partial void UpdateTBL_TINHLUONG_1(TBL_TINHLUONG_1 instance);
     partial void DeleteTBL_TINHLUONG_1(TBL_TINHLUONG_1 instance);
+    partial void InsertTBL_QUANLYTAIKHOAN(TBL_QUANLYTAIKHOAN instance);
+    partial void UpdateTBL_QUANLYTAIKHOAN(TBL_QUANLYTAIKHOAN instance);
+    partial void DeleteTBL_QUANLYTAIKHOAN(TBL_QUANLYTAIKHOAN instance);
     #endregion
 		
 		public DataClasses1DataContext() : 
@@ -136,6 +139,14 @@ namespace doancosonganh
 			get
 			{
 				return this.GetTable<TBL_TINHLUONG_1>();
+			}
+		}
+		
+		public System.Data.Linq.Table<TBL_QUANLYTAIKHOAN> TBL_QUANLYTAIKHOANs
+		{
+			get
+			{
+				return this.GetTable<TBL_QUANLYTAIKHOAN>();
 			}
 		}
 	}
@@ -1437,6 +1448,116 @@ namespace doancosonganh
 					this._NGAYNHAN = value;
 					this.SendPropertyChanged("NGAYNHAN");
 					this.OnNGAYNHANChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TBL_QUANLYTAIKHOAN")]
+	public partial class TBL_QUANLYTAIKHOAN : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MATAIKHOAN;
+		
+		private string _TENTAIKHOAN;
+		
+		private string _MATKHAU;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMATAIKHOANChanging(string value);
+    partial void OnMATAIKHOANChanged();
+    partial void OnTENTAIKHOANChanging(string value);
+    partial void OnTENTAIKHOANChanged();
+    partial void OnMATKHAUChanging(string value);
+    partial void OnMATKHAUChanged();
+    #endregion
+		
+		public TBL_QUANLYTAIKHOAN()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MATAIKHOAN", DbType="VarChar(5) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MATAIKHOAN
+		{
+			get
+			{
+				return this._MATAIKHOAN;
+			}
+			set
+			{
+				if ((this._MATAIKHOAN != value))
+				{
+					this.OnMATAIKHOANChanging(value);
+					this.SendPropertyChanging();
+					this._MATAIKHOAN = value;
+					this.SendPropertyChanged("MATAIKHOAN");
+					this.OnMATAIKHOANChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TENTAIKHOAN", DbType="NVarChar(20)")]
+		public string TENTAIKHOAN
+		{
+			get
+			{
+				return this._TENTAIKHOAN;
+			}
+			set
+			{
+				if ((this._TENTAIKHOAN != value))
+				{
+					this.OnTENTAIKHOANChanging(value);
+					this.SendPropertyChanging();
+					this._TENTAIKHOAN = value;
+					this.SendPropertyChanged("TENTAIKHOAN");
+					this.OnTENTAIKHOANChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MATKHAU", DbType="NVarChar(20)")]
+		public string MATKHAU
+		{
+			get
+			{
+				return this._MATKHAU;
+			}
+			set
+			{
+				if ((this._MATKHAU != value))
+				{
+					this.OnMATKHAUChanging(value);
+					this.SendPropertyChanging();
+					this._MATKHAU = value;
+					this.SendPropertyChanged("MATKHAU");
+					this.OnMATKHAUChanged();
 				}
 			}
 		}

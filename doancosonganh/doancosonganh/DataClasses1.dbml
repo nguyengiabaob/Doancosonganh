@@ -72,4 +72,11 @@
       <Column Name="NGAYNHAN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
     </Type>
   </Table>
+  <Table Name="dbo.TBL_QUANLYTAIKHOAN" Member="TBL_QUANLYTAIKHOANs">
+    <Type Name="TBL_QUANLYTAIKHOAN">
+      <Column Name="MATAIKHOAN" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENTAIKHOAN" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MATKHAU" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
 </Database>

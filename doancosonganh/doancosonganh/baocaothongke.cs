@@ -73,7 +73,28 @@ namespace doancosonganh
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if(cbxbaocao.SelectedItem.ToString()=="Báo cáo hàng bán chạy")
+            {
+                int index = tabControl1.TabPages.IndexOfKey("tabpagebaocaohangbanchay");
+                if(index>0)
+                {
+                    tabControl1.SelectedIndex = index;
 
+                }
+                else
+                {
+                    baocaohangbanchay a = new baocaohangbanchay(cbxloai, tbxsanpham, dateTimePickerngaytu, dateTimePickerngayden, btnxembaocao, cbxbaocao);
+                    TabPage p = new TabPage(a.Text);
+                    p.Name = "tabpagebaocaohangbanchay";
+                    a.TopLevel = false;
+                    p.Controls.Add(a);
+                    a.Dock = DockStyle.Fill;
+                    a.FormBorderStyle = FormBorderStyle.None;
+                    tabControl1.TabPages.Add(p);
+                    a.Show();
+
+                }
+            }
         }
 
         private void baocaothongke_Load(object sender, EventArgs e)
@@ -126,6 +147,17 @@ namespace doancosonganh
         private void tbxsanpham_MouseClick(object sender, MouseEventArgs e)
         {
             tbxsanpham.Text = "";
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            int index = tabControl1.TabPages.IndexOfKey("tabpagebaocaohangbanchay");
+            if(tabControl1.SelectedIndex==index)
+            {
+                reporthangbanchay f = new reporthangbanchay();
+                f.ShowDialog();
+
+            }
         }
     }
     }

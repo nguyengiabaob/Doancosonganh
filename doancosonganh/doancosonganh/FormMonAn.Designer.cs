@@ -175,9 +175,9 @@
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.groupBox2.Location = new System.Drawing.Point(776, 2);
+            this.groupBox2.Location = new System.Drawing.Point(1014, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(459, 255);
+            this.groupBox2.Size = new System.Drawing.Size(512, 255);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm sản phẩm sản phẩm";
@@ -303,7 +303,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.RoyalBlue;
             this.groupBox1.Location = new System.Drawing.Point(1, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(769, 255);
+            this.groupBox1.Size = new System.Drawing.Size(1007, 255);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
@@ -367,9 +367,9 @@
             listViewItem19,
             listViewItem20});
             this.listViewmonan.LargeImageList = this.imageList1;
-            this.listViewmonan.Location = new System.Drawing.Point(1, 263);
+            this.listViewmonan.Location = new System.Drawing.Point(1, 257);
             this.listViewmonan.Name = "listViewmonan";
-            this.listViewmonan.Size = new System.Drawing.Size(1234, 540);
+            this.listViewmonan.Size = new System.Drawing.Size(1534, 428);
             this.listViewmonan.SmallImageList = this.imageList1;
             this.listViewmonan.TabIndex = 11;
             this.listViewmonan.UseCompatibleStateImageBehavior = false;
@@ -415,7 +415,7 @@
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button3.Image = global::doancosonganh.Properties.Resources.settings;
-            this.button3.Location = new System.Drawing.Point(378, 209);
+            this.button3.Location = new System.Drawing.Point(411, 212);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 37);
             this.button3.TabIndex = 16;
@@ -428,7 +428,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(600, 26);
+            this.pictureBox1.Location = new System.Drawing.Point(730, 16);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(156, 150);
             this.pictureBox1.TabIndex = 15;
@@ -439,7 +439,7 @@
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button1.Image = global::doancosonganh.Properties.Resources.download;
-            this.button1.Location = new System.Drawing.Point(210, 209);
+            this.button1.Location = new System.Drawing.Point(259, 212);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 37);
             this.button1.TabIndex = 12;
@@ -454,7 +454,7 @@
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button5.Image = global::doancosonganh.Properties.Resources.images__1_;
-            this.button5.Location = new System.Drawing.Point(611, 182);
+            this.button5.Location = new System.Drawing.Point(740, 187);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(125, 50);
             this.button5.TabIndex = 11;
@@ -470,7 +470,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button2.Image = global::doancosonganh.Properties.Resources.add_to_the_basket;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(50, 212);
+            this.button2.Location = new System.Drawing.Point(85, 212);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(127, 37);
             this.button2.TabIndex = 0;
@@ -484,7 +484,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1232, 685);
+            this.ClientSize = new System.Drawing.Size(1529, 685);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listViewmonan);

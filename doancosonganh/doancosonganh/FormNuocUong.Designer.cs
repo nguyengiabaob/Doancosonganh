@@ -33,22 +33,22 @@
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Nước suối", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "SP01", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "1", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "15.000", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, 41);
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "15.000", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Nước chanh", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "SP02"),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "2", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "15.000")}, 30);
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "15.000")}, -1);
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Nước coca",
             "SP03",
             "3",
-            "15.000"}, 11, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
+            "15.000"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
             System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bia tiger",
             "SP04",
             "4",
-            "12.000"}, 14, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
+            "12.000"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bia Heineken",
             "SP05",
@@ -69,46 +69,6 @@
             System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem("");
             System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem("");
             System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Nước suối", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "SP01", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "1", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "15.000", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Nước chanh", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "SP02"),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "2", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "15.000")}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Nước coca",
-            "SP03",
-            "3",
-            "15.000"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Bia tiger",
-            "SP04",
-            "4",
-            "12.000"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Bia Heineken",
-            "SP05",
-            "5",
-            "12.000"}, "bia-heineken-ha-lan-5-lon-330ml-1.jpg", System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem40 = new System.Windows.Forms.ListViewItem("");
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -123,7 +83,6 @@
             this.tbxmasanpham1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.numericUpDownSL1 = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
@@ -170,7 +129,7 @@
             this.groupBox1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.groupBox1.Location = new System.Drawing.Point(3, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(770, 249);
+            this.groupBox1.Size = new System.Drawing.Size(1054, 249);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
@@ -181,9 +140,9 @@
             this.button3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button3.Image = global::doancosonganh.Properties.Resources.settings;
-            this.button3.Location = new System.Drawing.Point(393, 206);
+            this.button3.Location = new System.Drawing.Point(493, 200);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(133, 37);
+            this.button3.Size = new System.Drawing.Size(133, 43);
             this.button3.TabIndex = 17;
             this.button3.Text = "Sửa";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -197,9 +156,9 @@
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button1.Image = global::doancosonganh.Properties.Resources.download;
-            this.button1.Location = new System.Drawing.Point(240, 206);
+            this.button1.Location = new System.Drawing.Point(328, 200);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 37);
+            this.button1.Size = new System.Drawing.Size(127, 43);
             this.button1.TabIndex = 16;
             this.button1.Text = "Lưu";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -214,9 +173,9 @@
             this.button2.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button2.Image = global::doancosonganh.Properties.Resources.add_to_the_basket;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(69, 206);
+            this.button2.Location = new System.Drawing.Point(126, 200);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 37);
+            this.button2.Size = new System.Drawing.Size(130, 43);
             this.button2.TabIndex = 14;
             this.button2.Text = "Thêm mới";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -225,7 +184,7 @@
             // 
             // numupdowsoluong
             // 
-            this.numupdowsoluong.Location = new System.Drawing.Point(373, 138);
+            this.numupdowsoluong.Location = new System.Drawing.Point(542, 130);
             this.numupdowsoluong.Maximum = new decimal(new int[] {
             1661992959,
             1808227885,
@@ -240,7 +199,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label7.Location = new System.Drawing.Point(287, 141);
+            this.label7.Location = new System.Drawing.Point(400, 132);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 19);
             this.label7.TabIndex = 12;
@@ -252,9 +211,9 @@
             this.button5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button5.Image = global::doancosonganh.Properties.Resources.images__1_;
-            this.button5.Location = new System.Drawing.Point(586, 181);
+            this.button5.Location = new System.Drawing.Point(829, 200);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(123, 43);
+            this.button5.Size = new System.Drawing.Size(144, 38);
             this.button5.TabIndex = 11;
             this.button5.Text = "Chọn hình";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -264,15 +223,15 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.Location = new System.Drawing.Point(571, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(782, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(158, 163);
+            this.pictureBox1.Size = new System.Drawing.Size(242, 182);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // numupdow2
             // 
-            this.numupdow2.Location = new System.Drawing.Point(98, 138);
+            this.numupdow2.Location = new System.Drawing.Point(155, 132);
             this.numupdow2.Maximum = new decimal(new int[] {
             -1593835521,
             466537709,
@@ -287,7 +246,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label6.Location = new System.Drawing.Point(28, 146);
+            this.label6.Location = new System.Drawing.Point(85, 140);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(33, 19);
             this.label6.TabIndex = 7;
@@ -296,7 +255,7 @@
             // tbxtensanpham1
             // 
             this.tbxtensanpham1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.tbxtensanpham1.Location = new System.Drawing.Point(373, 53);
+            this.tbxtensanpham1.Location = new System.Drawing.Point(542, 44);
             this.tbxtensanpham1.Name = "tbxtensanpham1";
             this.tbxtensanpham1.Size = new System.Drawing.Size(153, 30);
             this.tbxtensanpham1.TabIndex = 4;
@@ -304,7 +263,7 @@
             // tbxmasanpham1
             // 
             this.tbxmasanpham1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.tbxmasanpham1.Location = new System.Drawing.Point(98, 50);
+            this.tbxmasanpham1.Location = new System.Drawing.Point(155, 44);
             this.tbxmasanpham1.Name = "tbxmasanpham1";
             this.tbxmasanpham1.ReadOnly = true;
             this.tbxmasanpham1.Size = new System.Drawing.Size(154, 30);
@@ -315,7 +274,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label2.Location = new System.Drawing.Point(267, 59);
+            this.label2.Location = new System.Drawing.Point(383, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 19);
             this.label2.TabIndex = 2;
@@ -326,45 +285,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label1.Location = new System.Drawing.Point(-2, 50);
+            this.label1.Location = new System.Drawing.Point(55, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mã sản phẩm";
-            // 
-            // listView1
-            // 
-            this.listView1.AllowColumnReorder = true;
-            this.listView1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5,
-            listViewItem6,
-            listViewItem7,
-            listViewItem8,
-            listViewItem9,
-            listViewItem10,
-            listViewItem11,
-            listViewItem12,
-            listViewItem13,
-            listViewItem14,
-            listViewItem15,
-            listViewItem16,
-            listViewItem17,
-            listViewItem18,
-            listViewItem19,
-            listViewItem20});
-            this.listView1.Location = new System.Drawing.Point(3, 206);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1229, 410);
-            this.listView1.TabIndex = 6;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // groupBox2
             // 
@@ -381,9 +306,9 @@
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(779, 0);
+            this.groupBox2.Location = new System.Drawing.Point(1060, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(453, 249);
+            this.groupBox2.Size = new System.Drawing.Size(466, 249);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm sản phẩm sản phẩm";
@@ -417,9 +342,9 @@
             this.buttonxoanuoc.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonxoanuoc.ForeColor = System.Drawing.SystemColors.MenuText;
             this.buttonxoanuoc.Image = global::doancosonganh.Properties.Resources.trash;
-            this.buttonxoanuoc.Location = new System.Drawing.Point(263, 206);
+            this.buttonxoanuoc.Location = new System.Drawing.Point(295, 209);
             this.buttonxoanuoc.Name = "buttonxoanuoc";
-            this.buttonxoanuoc.Size = new System.Drawing.Size(127, 37);
+            this.buttonxoanuoc.Size = new System.Drawing.Size(127, 34);
             this.buttonxoanuoc.TabIndex = 18;
             this.buttonxoanuoc.Text = "Xóa";
             this.buttonxoanuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -452,7 +377,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label3.Location = new System.Drawing.Point(217, 50);
+            this.label3.Location = new System.Drawing.Point(203, 50);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 19);
             this.label3.TabIndex = 15;
@@ -495,9 +420,9 @@
             this.button7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button7.Image = global::doancosonganh.Properties.Resources.search_engine;
-            this.button7.Location = new System.Drawing.Point(61, 206);
+            this.button7.Location = new System.Drawing.Point(88, 209);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(136, 37);
+            this.button7.Size = new System.Drawing.Size(140, 37);
             this.button7.TabIndex = 8;
             this.button7.Text = "Tìm kiếm";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -518,34 +443,35 @@
             this.listviewnuocuong.HideSelection = false;
             this.listviewnuocuong.ImeMode = System.Windows.Forms.ImeMode.Katakana;
             this.listviewnuocuong.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem21,
-            listViewItem22,
-            listViewItem23,
-            listViewItem24,
-            listViewItem25,
-            listViewItem26,
-            listViewItem27,
-            listViewItem28,
-            listViewItem29,
-            listViewItem30,
-            listViewItem31,
-            listViewItem32,
-            listViewItem33,
-            listViewItem34,
-            listViewItem35,
-            listViewItem36,
-            listViewItem37,
-            listViewItem38,
-            listViewItem39,
-            listViewItem40});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10,
+            listViewItem11,
+            listViewItem12,
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18,
+            listViewItem19,
+            listViewItem20});
             this.listviewnuocuong.LargeImageList = this.imageList1;
             this.listviewnuocuong.Location = new System.Drawing.Point(3, 255);
             this.listviewnuocuong.Name = "listviewnuocuong";
-            this.listviewnuocuong.Size = new System.Drawing.Size(1231, 424);
+            this.listviewnuocuong.Size = new System.Drawing.Size(1523, 429);
             this.listviewnuocuong.SmallImageList = this.imageList1;
             this.listviewnuocuong.TabIndex = 12;
             this.listviewnuocuong.UseCompatibleStateImageBehavior = false;
             this.listviewnuocuong.View = System.Windows.Forms.View.Details;
+            this.listviewnuocuong.SelectedIndexChanged += new System.EventHandler(this.listviewnuocuong_SelectedIndexChanged);
             // 
             // Tensp
             // 
@@ -580,14 +506,12 @@
             // 
             // FormNuocUong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1235, 680);
+            this.ClientSize = new System.Drawing.Size(1529, 685);
             this.Controls.Add(this.listviewnuocuong);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listView1);
             this.Name = "FormNuocUong";
             this.Text = "FormNuocUong";
             this.Load += new System.EventHandler(this.FormNuocUong_Load);
@@ -613,7 +537,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.NumericUpDown numupdow2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.NumericUpDown numupdowgia;
         private System.Windows.Forms.TextBox tbxtensanpham;

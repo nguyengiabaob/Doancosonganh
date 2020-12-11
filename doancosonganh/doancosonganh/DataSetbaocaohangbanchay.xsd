@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetbaocaohangbanchay" targetNamespace="http://tempuri.org/DataSetbaocaohangbanchay.xsd" xmlns:mstns="http://tempuri.org/DataSetbaocaohangbanchay.xsd" xmlns="http://tempuri.org/DataSetbaocaohangbanchay.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QUANLYQUANANConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QUANLYQUANANConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.doancosonganh.Properties.Settings.GlobalReference.Default.QUANLYQUANANConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QUANLYQUANANConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT TBL_HOADONCT.MASAPHAM, TBL_HOADONCT.TENSANPHAM, TBL_HOADONCT.SOLUONG, TBL_HOADONCT.GIA, TBL_HOADON.NGAYBAN
+FROM     TBL_HOADON CROSS JOIN
+                  TBL_HOADONCT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MASAPHAM" DataSetColumn="MASAPHAM" />
+              <Mapping SourceColumn="TENSANPHAM" DataSetColumn="TENSANPHAM" />
+              <Mapping SourceColumn="SOLUONG" DataSetColumn="SOLUONG" />
+              <Mapping SourceColumn="GIA" DataSetColumn="GIA" />
+              <Mapping SourceColumn="NGAYBAN" DataSetColumn="NGAYBAN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetbaocaohangbanchay" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetbaocaohangbanchay" msprop:Generator_UserDSName="DataSetbaocaohangbanchay">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MASAPHAM" msprop:Generator_ColumnVarNameInTable="columnMASAPHAM" msprop:Generator_ColumnPropNameInRow="MASAPHAM" msprop:Generator_ColumnPropNameInTable="MASAPHAMColumn" msprop:Generator_UserColumnName="MASAPHAM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENSANPHAM" msprop:Generator_ColumnVarNameInTable="columnTENSANPHAM" msprop:Generator_ColumnPropNameInRow="TENSANPHAM" msprop:Generator_ColumnPropNameInTable="TENSANPHAMColumn" msprop:Generator_UserColumnName="TENSANPHAM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SOLUONG" msprop:Generator_ColumnVarNameInTable="columnSOLUONG" msprop:Generator_ColumnPropNameInRow="SOLUONG" msprop:Generator_ColumnPropNameInTable="SOLUONGColumn" msprop:Generator_UserColumnName="SOLUONG" type="xs:int" minOccurs="0" />
+              <xs:element name="GIA" msprop:Generator_ColumnVarNameInTable="columnGIA" msprop:Generator_ColumnPropNameInRow="GIA" msprop:Generator_ColumnPropNameInTable="GIAColumn" msprop:Generator_UserColumnName="GIA" type="xs:double" minOccurs="0" />
+              <xs:element name="NGAYBAN" msprop:Generator_ColumnVarNameInTable="columnNGAYBAN" msprop:Generator_ColumnPropNameInRow="NGAYBAN" msprop:Generator_ColumnPropNameInTable="NGAYBANColumn" msprop:Generator_UserColumnName="NGAYBAN" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

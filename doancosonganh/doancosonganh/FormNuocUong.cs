@@ -132,6 +132,7 @@ namespace doancosonganh
                 //cmm.ExecuteNonQuery();
                 //ModuleDB.cnn.Close();
                 saveimages();
+                loadlistviewnuocuong();
                 phanbiet = 0;
             }
             else
@@ -263,6 +264,11 @@ namespace doancosonganh
                     numupdowsoluong.Value = (int)b.SOLUONG;
                 }
             }
+        }
+
+        private void listviewnuocuong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
